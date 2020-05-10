@@ -1,0 +1,38 @@
+ <div class="header-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 ">
+          <div class="header-menu">
+              <div class="toggler-button" (click)="onToggleMenu()">
+                <i class="fas fa-bars"></i>
+              </div>
+            <div class="logo">
+              <a routerLink=""> Khalid Hamdaoui </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="menu-toggled" [ngStyle]="{'transform': menuPosition}">
+    <div class="right-side" (click)="onHideMenu()">
+      <div class="white-side">
+        <div class="cancel-button">
+          <i class="fas fa-times"></i>
+        </div>
+      </div>
+    </div>
+    <div class="left-side">
+      <div class="title-menu">Menu</div>
+      <nav class="navbar">
+        <ul class="navigation">
+          <li class="nav-item">
+            <a routerLink='portfolioboxes' class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">About Me</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>

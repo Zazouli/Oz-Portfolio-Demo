@@ -1,0 +1,7 @@
+<main class="main-content">
+    <div class="container">
+      <div class="content-wrapper">
+              <app-portfolio-box *ngFor="let box of boxesContent;let i= index" [boxContent]="box" [index]="[i]"></app-portfolio-box>
+      </div>
+    </div>
+  </main>

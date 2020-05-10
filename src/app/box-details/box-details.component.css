@@ -1,0 +1,40 @@
+.detail-wrapper{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2rem 0 2rem 0;
+  font-family: sans-serif;
+}
+.detail-right-side{
+  margin-right: 2rem; 
+}
+.detail-bg-img{
+  background: url('https://assets.6sigma.us/wp-content/uploads/2017/03/mobile-experience-768x432.jpg?x12728');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.detail-left-side{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.detail-content-text{
+  padding-left: 2rem;
+}
+.detail-content{
+  font-size: 2rem;
+}
+.content-title{
+  font-size: 1.2rem;
+}
+.list-content{
+  list-style: none;
+}
+.list-content-item{
+  padding: 1rem 0 1rem 0;
+}
